@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgb(255,255,255) 40%, rgb(165,165,165) 99%, rgb(0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,rgb(255,255,255)), color-stop(99%,rgb(165,165,165)), color-stop(100%,rgb(0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgb(255,255,255) 40%,rgb(165,165,165) 99%,rgb(0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgb(255,255,255) 40%,rgb(165,165,165) 99%,rgb(0,0,0) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgb(255,255,255) 40%,rgb(165,165,165) 99%,rgb(0,0,0) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgb(255,255,255) 40%,rgb(165,165,165) 99%,rgb(0,0,0) 100%); /* W3C */
+	height: 800px;
+}
+.wrapper{
+	width: 550px;
+	font-family: Verdana;
+	font-style: italic;
+	margin: 100px auto;
+}
+h2{
+	padding: 15px 0;
+	font-size: 36px;
+}
+.make-bold{
+	font-weight: bold;
+	font-size: 48px;
+}
+p, h2{
+	margin: 5px 0;
+	text-align: center;
+}
+input{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: black;
+	border-radius: 10px;
+	color:  silver;
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: italic;
+	height: 45px;
+	padding-left: 20px;
+	width: 250px;
+
+}
+button{
+    text-align: center;
+	width: 135px;
+	height: 40px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-style: italic;
+	background: -moz-linear-gradient(top, rgb(226,226,226) 16%, rgb(244,244,244) 100%, rgb(32,124,202) 100%, rgb(125,185,232) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,rgb(226,226,226)), color-stop(100%,rgb(244,244,244)), color-stop(100%,rgb(32,124,202)), color-stop(100%,rgb(125,185,232))); /* Chrome,Safari4+ */
+
+}
