@@ -1,6 +1,6 @@
 ;(function(){
 	'use strict'
-
+	'as';
 	var array_of_results = [];
 
 	function getBinaryNumber(number) {
